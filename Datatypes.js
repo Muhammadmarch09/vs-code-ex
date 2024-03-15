@@ -47,3 +47,19 @@ console.log(`The 3 index is  ${lenghtString.at (3)}`);
 const charatString = "A crazy driver driving a car";
 const index = 4;
 console.log(`The character at ${index} is ${charatString.charAt(index)}`);
+ 
+// This method is as same as at method 
+
+const concatString1 = "Hello";
+const concatString2 =  " world";
+console.log(concatString1.concat(concatString2));
+
+// The concat method connect to string 
+
+const endswithString = "Is this is a string";
+console.log(`${endswithString} ends with string ${endswithString.endsWith(" string")}`);
+
+// use endsWith method to see whether a string endsWith the strings character this will return true/false 
+const includesString = "There is a man in a village";
+const includesCharacter = "man";
+console.log(` Is it ${includesCharacter} includes in ${includesString} ${includesString.includes(includesCharacter)}`);
