@@ -28,3 +28,22 @@ let boolearIsLoggedIn = Boolean(isLoggedIn);
 
 // "" => false
 // "hitesh" => true
+// ************* String***************
+name = "ashik";
+roll = 12;
+className = "Nine";
+
+console.log(`this is me ${name} my roll is ${roll} I am in class ${className}`);
+
+// Using the method of String
+
+const lenghtString = ("Mubarak");
+
+console.log(lenghtString.length); 
+// Use lenght to see the lenght of a String
+console.log(`The 3 index is  ${lenghtString.at (3)}`);
+// use at method to see the index CharacterData
+
+const charatString = "A crazy driver driving a car";
+const index = 4;
+console.log(`The character at ${index} is ${charatString.charAt(index)}`);
