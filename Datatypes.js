@@ -90,3 +90,49 @@ console.log(padEndString);
 const repeatString = "Happy!";
 console.log(`I am so ${repeatString.repeat(9)}`);
 // The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together.
+
+const replaceString = "My dog is cuter than your dog";
+
+console.log(replaceString.replace("dog","cat"));
+console.log(replaceString);
+console.log(replaceString.replaceAll("dog","monkey"));
+// The replace() method replace a matching string and return a new string 
+// The replaceAll() method replace all the match string and also return a new string 
+
+const sliceString = "There is a good boy in Dhaka . He so honest";
+console.log(sliceString.slice(1,14));
+console.log(sliceString.slice(20,28));
+console.log(sliceString.slice(-12));
+
+// The slice() method can devide a string by given the index number the index could be negetive also 
+// This will return a new string 
+
+const splitString = "I am Muhammad Mubarak and I went to succed in life";
+const splitArray = splitString.split(' ');
+console.log(splitArray);
+
+// The split() method return an Array search on w3school to learn more
+
+const startswithString = "Hello this me Muhammad Mubarak";
+console.log(startswithString.startsWith("Hello"));
+console.log(startswithString.startsWith("Hello",1));  // we can also give a index point this will return false 
+
+// The startsWith() method show that the string starts with which string and return true or false 
+
+const substringString = "Hello world";
+console.log(substringString.substring(1,4));
+console.log(substringString.substring(4));
+console.log(substringString.substring(-6,6));
+
+// The substring() method extract a string by given the index value 
+
+const caseString = "Hello world";
+console.log(caseString.toLocaleLowerCase());
+console.log(caseString.toLocaleUpperCase());
+console.log(caseString.toLowerCase());
+ 
+// Those method works on case The toLocaleLowerCase() method and toLowerCase are same method 
+
+
+
+
