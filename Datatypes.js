@@ -63,3 +63,20 @@ console.log(`${endswithString} ends with string ${endswithString.endsWith(" stri
 const includesString = "There is a man in a village";
 const includesCharacter = "man";
 console.log(` Is it ${includesCharacter} includes in ${includesString} ${includesString.includes(includesCharacter)}`);
+
+// includes method show whether a string is in a string the output will be true of false the search will be case sensitive 
+ 
+const indexofString = "There was a farmer in a village with his family village";
+const searchWord1 ="village";
+const indexofFirst = indexofString.indexOf(searchWord1);
+console.log(indexofFirst);
+
+// The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring
+
+// using the indexof variables
+const searchWord2 = "village";
+const indexOfLast = indexofString.lastIndexOf(searchWord2);
+
+console.log(indexOfLast);
+
+// The lastIndexOf() method of String values searches this string and returns the index of the last occurrence of the specified substring
