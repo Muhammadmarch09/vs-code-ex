@@ -80,3 +80,13 @@ const indexOfLast = indexofString.lastIndexOf(searchWord2);
 console.log(indexOfLast);
 
 // The lastIndexOf() method of String values searches this string and returns the index of the last occurrence of the specified substring
+
+const padEndString = "Mishuk";
+console.log(padEndString.padEnd(44,'.'));
+console.log(padEndString);
+// The padEnd() method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string.
+// The padStart works differents that pads from the start 
+
+const repeatString = "Happy!";
+console.log(`I am so ${repeatString.repeat(9)}`);
+// The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together.
