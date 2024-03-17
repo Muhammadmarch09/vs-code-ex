@@ -141,5 +141,29 @@ console.log(trimString.trim());
 // also the trimStart() and trimEnd() method works to start and end 
 
 // ************ End of string methods *********
+// ************* Starting Number methods ********* 
+
+const balance = 40;
+console.log(balance.toString().length); 
+// with toString() method we can change a number to a string and cheque the lenght of the number 
+console.log(balance.toFixed(2)); // The output will be 40.00
+// The toFixed() method give the power how many number you need after the point usually we use 2 
+const fifties = 100000;
+// This will show american style commas
+console.log(fifties.toLocaleString()); 
+// This will show indian style commas
+console.log(fifties.toLocaleString('en-In'));
+
+// ***************Math Methods**************
+
+console.log(Math.round(4.4));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+
+// Generating a random number from 1 to 10
+console.log(Math.floor(Math.random()*10) +1);
+
+
+
 
 
