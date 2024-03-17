@@ -133,6 +133,13 @@ console.log(caseString.toLowerCase());
  
 // Those method works on case The toLocaleLowerCase() method and toLowerCase are same method 
 
+const trimString = "       This is a string with white spaces      " ;
+console.log(trimString);
+console.log(trimString.trim());
 
+// The trim() method delete the white spaces from start and end of a string 
+// also the trimStart() and trimEnd() method works to start and end 
+
+// ************ End of string methods *********
 
 
